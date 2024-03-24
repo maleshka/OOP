@@ -8,5 +8,9 @@ public class Marseille extends Teams{
         super.setName("Marseille");
         super.generateRandomNumberOfCharitableMatches();
 
+        for (int i = 0; i < 11; i++) {
+            Player player = new Player();
+            super.addPlayer(player);
+        }
     }
 }

@@ -7,5 +7,10 @@ public class Shakhtar extends Teams{
         super.setCountry("Ukraine");
         super.setName("Shakhtar");
         super.generateRandomNumberOfCharitableMatches();
+
+        for (int i = 0; i < 11; i++) {
+            Player player = new Player();
+            super.addPlayer(player);
+        }
     }
 }

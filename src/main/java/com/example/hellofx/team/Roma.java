@@ -8,5 +8,9 @@ public class Roma extends Teams{
         super.setName("Roma");
         super.generateRandomNumberOfCharitableMatches();
 
+        for (int i = 0; i < 11; i++) {
+            Player player = new Player();
+            super.addPlayer(player);
+        }
     }
 }

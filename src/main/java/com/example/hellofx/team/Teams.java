@@ -3,7 +3,8 @@ package com.example.hellofx.team;
 import java.util.ArrayList;
 import java.util.Random;
 
-public class Teams {    private String name;
+public class Teams {
+    private String name;
     private String country;
     private ArrayList<Player> players;
     private int numberOfCharitableMatchesPlayed;

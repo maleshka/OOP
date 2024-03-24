@@ -8,5 +8,9 @@ public class Paok extends Teams{
         super.setName("Paok");
         super.generateRandomNumberOfCharitableMatches();
 
+        for (int i = 0; i < 11; i++) {
+            Player player = new Player();
+            super.addPlayer(player);
+        }
     }
 }
