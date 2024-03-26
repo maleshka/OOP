@@ -11,5 +11,11 @@ public class Ajax extends Teams{
             Player player = new Player();
             super.addPlayer(player);
         }
+        teamsMade();
+    }
+
+    public void teamsMade(){
+        super.teamsMade();
+        System.out.println(super.getName()+" bol pridany do zoznamu");
     }
 }
